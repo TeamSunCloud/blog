@@ -1,7 +1,52 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
+# Site settings
 title: "天成云团队技术博客"
+SEOTitle: "天成云团队技术博客"
+header-img: /assets/img/home-bg.png
+email: "yangchw@teamsun.com.cn"
 description: "混合多云时代云资源管理及应用服务专家"
 keyword: "天成云, 华胜天成, 云计算, 云原生, kubernetes, DevOps, 混合多云, 云资源管理, 应用服务"
+url: "https://www.yangxiaoxie.com/"
+baseurl: ""
 
+
+# avatar and Favicon
+# avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+favicon: favicon.ico
+
+
+# Sidebar settings
+sidebar: false
+sidebar-about-description: ""
+sidebar-avatar: /assets/img/avatar.png 
+
+
+# Featured Tags
+featured-tags: true 
+featured-condition-size: 1
+
+
+# SNS settings
+RSS: false
+weibo_username:     false
+zhihu_username:     false
+github_username:    teamsuncloud
+
+
+# Build settings
+paginate: 10
+plugins: [jekyll-paginate]
+# gems: [jekyll-paginate]
+
+
+# Gitalk
+gitalk:
+  enable: false
+  clientID:
+  clientSecret:
+  repo: blog
+  owner: moodpo
+  admin: moodpo
+  # distractionFreeMode: true
 

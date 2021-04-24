@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: default
 title: "DevOps 平台 CircleCI 试用记录"
 subtitle: ""
 author: "yangchw"

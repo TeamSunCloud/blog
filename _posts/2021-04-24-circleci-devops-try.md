@@ -12,4 +12,4 @@ tags:
 
 ## CircleCI 试用记录
 
-(CircleCI)[https://circleci.com/]
+[CircleCI](https://circleci.com/)

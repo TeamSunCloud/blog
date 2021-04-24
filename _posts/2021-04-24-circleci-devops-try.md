@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DevOps 平台 CircleCI 试用记录"
+title: "CircleCI 试用记录"
 subtitle: ""
 author: "yangchw"
 header-img: "assets/img/home-bg.png"
@@ -10,4 +10,6 @@ tags:
   - CircleCI
 ---
 
-## DevOps 平台 CircleCI 试用记录
+## CircleCI 试用记录
+
+(CircleCI)[https://circleci.com/]

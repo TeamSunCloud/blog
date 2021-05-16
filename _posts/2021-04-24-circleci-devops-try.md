@@ -19,11 +19,11 @@ tags:
 
 CircleCI是基于云的CI/CD工具，可自动执行软件构建和交付过程。它提供快速的配置和维护，没有任何复杂性。由于它是基于云的CI/CD工具，因此消除了专用服务器的困扰，并降低了维护本地服务器的成本。此外，基于云的服务器是可扩展的，健壮的，并有助于更快地部署应用程序。
 
-![架构图](../assets/2021-05-16/arch.png)
+![架构图](/assets/2021-05-16/arch.png)
 
 目前CircleCI的大部分功能是免费的，它在GitHub上很流行，同时它也提供了托管和自托管的解决方案（需付费）。
 
-![付费计划](../assets/2021-05-16/20210516163703.jpg)
+![付费计划](/assets/2021-05-16/20210516163703.jpg)
 
 CircleCI 每天管理约一百万个任务，为30,000个组织提供援助。客户倾向于将CircleCI用作他们的CI/CD工具，因为项目执行得更快并且构建得到了很好的优化。CircleCI还可以使用docker层缓存，高级缓存和资源类，快速有效地操作复杂的流水线。作为开发人员，你可以使用SSH设置CircleCI来调试构建中的问题。此外，你还可以设置并行构建，以更快地执行多个进程。
 
@@ -53,11 +53,11 @@ CircleCI  与 Linux，OSX，容器兼容，并且可以独立运行，而无需�
 
 直接使用你的 GitHub 账号登录即可，登录后 CircleCI 会自动把GitHub上的项目同步过来。如下图在左侧的 Project 中可以看到同步过来的项目，这里我创建了一个 `CircleCI-Demo` 项目，是基于 SpringBoot 的。
 
-![Project](../assets/2021-05-16/20210516164454.jpg)
+![Project](/assets/2021-05-16/20210516164454.jpg)
 
 选择 main 分支后，点击 Edit Config，编辑CD的配置文件。
 
-![Edit Config](../assets/2021-05-16/20210516164708.jpg)
+![Edit Config](/assets/2021-05-16/20210516164708.jpg)
 
 CircleCI 配置文件一般由以下部分组成：
  
@@ -75,7 +75,7 @@ CircleCI 配置文件一般由以下部分组成：
 └── all-other-project-files-and-folders
 ```
 
-![配置文件](../assets/2021-05-16/config-emements.png)
+![配置文件](/assets/2021-05-16/config-emements.png)
 
 Demo中的配置文件：
 
@@ -98,21 +98,21 @@ Orbs：是 CircleCI 预制的流水线，网站提供了这些预置流水线的
 
 点击页面的 Run Pipeline ，默认会使用项目下的配置文件进行 CI/CD 。
 
-![Run Pipeline](../assets/2021-05-16/20210516175510.jpg)
+![Run Pipeline](/assets/2021-05-16/20210516175510.jpg)
 
 查看具体的执行：复杂的流水线将显示在这里，目前项目只有一个 maven/test 。
 
-![Maven_test](../assets/2021-05-16/20210516175510.jpg)
+![Maven_test](/assets/2021-05-16/20210516175510.jpg)
 
 可以查看这个 Obs 的每一步的执行日志和结果。
 
-![Maven/test](../assets/2021-05-16/20210516175557.jpg)
+![Maven/test](/assets/2021-05-16/20210516175557.jpg)
 
 每次执行可以指定某个步骤进行缓存，这里是缓存 maven 的依赖，每个项目的构建也可以共享这些缓存。
 
-![catch](../assets/2021-05-16/20210516175658.jpg)
+![catch](/assets/2021-05-16/20210516175658.jpg)
 
 最后是执行结果显示。
 
-![latest](../assets/2021-05-16/20210516181021.jpg)
+![latest](/assets/2021-05-16/20210516181021.jpg)
 

@@ -50,3 +50,5 @@ gitalk:
   admin: moodpo
   # distractionFreeMode: true
 
+
+theme: jekyll-theme-cayman

@@ -76,7 +76,7 @@ CircleCI 配置文件一般由以下部分组成：
 └── all-other-project-files-and-folders
 ```
 
-![配置文件](/assets/2021-05-16/config-emements.png)
+![配置文件](/assets/2021-05-16/config-elements.png)
 
 Demo中的配置文件：
 

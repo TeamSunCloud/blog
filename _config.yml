@@ -1,12 +1,12 @@
 # theme: jekyll-theme-cayman
 
 # Site settings
-title: "天成云团队技术博客"
-SEOTitle: "天成云团队技术博客"
+title: "杨小邪的空中楼阁"
+SEOTitle: "杨小邪的空中楼阁"
 header-img: "assets/img/home-bg.png"
 email: "yangchw@teamsun.com.cn"
-description: "混合多云时代云资源管理及应用服务专家"
-keyword: "天成云, 华胜天成, 云计算, 云原生, kubernetes, DevOps, 混合多云, 云资源管理, 应用服务"
+description: "拥有的都是侥幸，失去的都是人生"
+keyword: "杨小邪的空中楼阁"
 url: "https://www.yangxiaoxie.com/"
 baseurl: ""
 
@@ -31,7 +31,7 @@ featured-condition-size: 1
 RSS: false
 weibo_username: false
 zhihu_username: false
-github_username: teamsuncloud
+github_username: moodpo
 
 
 # Build settings

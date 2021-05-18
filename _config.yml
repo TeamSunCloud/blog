@@ -46,6 +46,6 @@ gitalk:
   clientID: f992c0031dec436dd006
   clientSecret: 676c304c2d94731f12eaf60064e700786d224dd2
   repo: yangxiaoxie.com
-  owner: moodpo
+  owner: TeamSunCloud
   admin: moodpo
   # distractionFreeMode: true

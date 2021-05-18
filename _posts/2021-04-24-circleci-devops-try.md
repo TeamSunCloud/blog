@@ -50,7 +50,7 @@ CircleCI  与 Linux，OSX，容器兼容，并且可以独立运行，而无需�
  - 不需要专用服务器即可操作CircleCI。
  - 它缓存应用程序规范和第三方配置，而不是系统部署。
 
-### 使用步骤
+### CircleCI 使用步骤
 
 直接使用你的 GitHub 账号登录即可，登录后 CircleCI 会自动把GitHub上的项目同步过来。如下图在左侧的 Project 中可以看到同步过来的项目，这里我创建了一个 `CircleCI-Demo` 项目，是基于 SpringBoot 的。
 

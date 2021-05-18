@@ -43,7 +43,7 @@ plugins: [jekyll-paginate]
 # Gitalk
 gitalk:
   enable: false
-  clientID:
+  clientID: 
   clientSecret:
   repo: blog
   owner: moodpo
